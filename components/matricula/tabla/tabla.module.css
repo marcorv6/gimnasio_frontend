@@ -1,0 +1,16 @@
+.caretDown:hover {
+  cursor: pointer;
+}
+
+.container {
+  font-size: 0.9rem !important;
+  min-height: 30rem;
+}
+
+.button {
+  font-size: 0.9rem !important;
+}
+
+.shadow {
+  box-shadow: 0px 0px 20px 5px rgb(54, 54, 54);
+}

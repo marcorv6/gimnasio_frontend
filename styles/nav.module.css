@@ -1,0 +1,84 @@
+.nav {
+  background-color: #c63131;
+  padding: .5rem 0 .5rem 0;
+}
+
+.sidebar{
+  width: 300px !important;
+}
+
+.centro {
+  display: flex;
+  align-items: center;
+}
+
+.titulo {
+  color: #ffff;
+  margin-left: 1rem !important;
+  width: auto !important;
+  margin-bottom: 0 !important;
+}
+
+.departamento {
+  color: #ffff;
+  margin-top: .2rem !important;
+  margin-bottom: .2rem !important;
+}
+
+a.link {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin-left: 20px;
+}
+
+a.cerrar {
+  position: absolute;
+  bottom: 2rem;
+}
+
+a:hover.link {
+  color: #023da3;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.bars {
+  color: #ffff;
+}
+
+.bars:hover {
+  cursor: pointer;
+}
+
+.triangle {
+  /* width: auto;
+  height: auto;
+  border: 50px solid transparent;
+  border-top: 0;
+  border-bottom: 100px solid red; */
+
+  left: 100%;
+  right: -13.56%;
+  top: 100%;
+  bottom: -100%;
+
+  background: #f0af29;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+  .departamento {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+  .logo_acatlan {
+    margin: 0 auto;
+    visibility: visible;
+    width: auto;
+  }
+}
